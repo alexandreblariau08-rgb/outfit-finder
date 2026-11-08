@@ -1,0 +1,8 @@
+{
+  "name": "Outfit Finder",
+  "short_name": "Outfit",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf7f2",
+  "theme_color": "#222222"
+}
