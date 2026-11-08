@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Outfit Finder">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <title>Outfit Finder</title>
+</head>
+<body>
+  <header>
+    <h1>Outfit Finder</h1>
+    <p>Prends une photo d'un outfit et trouve où l'acheter</p>
+  </header>
+
+  <main>
+    <label class="bouton" for="photo">📸 Prendre ou choisir une photo</label>
+    <input type="file" id="photo" accept="image/*" hidden>
+
+    <img id="apercu" alt="" hidden>
+    <p id="statut"></p>
+    <section id="resultats"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
